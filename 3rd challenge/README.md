@@ -6,7 +6,7 @@ Algorithm
 5. Read the delivery distance in kilometres.
 6. using conditional statements Determine the discount rate
 7. Calculate the discount amount
-8. alculate the amount after discount
+8. Calculate the amount after discount
 9. using conditional statements  Determine the delivery charge
 10. Display the purchase amount, discount amount, amount after discount, delivery charge, and final payable amount.
 11. Stop
