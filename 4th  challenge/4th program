@@ -1,1 +1,49 @@
+//DAILY EXPENSES SUMMARY
 
+
+#include <stdio.h>
+int main(){
+float expense,small_total=0,medium_total=0,large_total=0,total_expenses=0;
+int small_count=0,medium_count=0,large_count=0,total_count=0;
+do{
+printf("Enter expense (0 to stop): ");
+scanf("%f",&expense);
+if(expense==0){
+break;
+}
+if(expense<0){
+printf("Invalid expense!\n");
+continue;
+}
+if(expense<100){
+small_count++;
+small_total+=expense;
+}
+else if(expense<500){
+medium_count++;
+medium_total+=expense;
+}
+else{
+large_count++;
+large_total+=expense;
+}
+total_count++;
+total_expenses+=expense;
+}while(1);
+printf("\n--- Expense Summary ---\n");
+printf("Total valid expenses: %d\n",total_count);
+printf("Total amount: %.2f\n",total_expenses);
+printf("Small count: %d\n",small_count);
+printf("Small total: %.2f\n",small_total);
+printf("Medium count: %d\n",medium_count);
+printf("Medium total: %.2f\n",medium_total);
+printf("Large count: %d\n",large_count);
+printf("Large total: %.2f\n",large_total);
+if(total_count>0){
+printf("Average expense: %.2f\n",total_expenses/total_count);
+}
+else{
+printf("No valid expenses entered.\n");
+}
+return 0;
+}
