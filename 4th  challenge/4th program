@@ -1,6 +1,5 @@
 //DAILY EXPENSES SUMMARY
-
-
+//Create a C program called LOOPLAB to analyse daily expenses. Repeatedly read expense amounts until the user enters 0. For each positive amount, classify it using the rules below, update counts and totals, and finally display a summary. Use loops, conditional statements, arithmetic operators, and variables. Do not use arrays, functions, or strings.
 #include <stdio.h>
 int main(){
 float expense,small_total=0,medium_total=0,large_total=0,total_expenses=0;
