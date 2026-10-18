@@ -36,7 +36,7 @@ if(n<0 || n>12){
 printf("invalid input\n");
 }
 else{
-for(i=1;i,n;i++){
+for(i=1;i<=n;i++){
 factorial *=i;
 }
 printf("Factorial =%d\n",factorial);
