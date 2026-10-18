@@ -78,3 +78,7 @@ printf("invalid choice\n");
 while(choice!=4);
 return 0;
 }
+}
+while(choice!=4);
+return 0;
+}
