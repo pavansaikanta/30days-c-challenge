@@ -14,7 +14,7 @@ scanf("%d", &choice);
 if(choice==1){
 float a,b,x;
 printf("Enter values of a and b: ");
-scanf("%f %f ",&a,&b);
+scanf("%f%f",&a,&b);
 if(a==0){
 if(b==0){
 printf("Infinitely many solutions\n");
